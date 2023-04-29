@@ -1,0 +1,68 @@
+/*************
+General styling / Elements
+**************/
+
+/*************
+Images
+**************/
+
+.react-icon {
+  position: absolute;
+  font-size: 20rem;
+  color: var(--bgrnd3);
+  z-index: 0;
+  top: 3.5rem;
+  right: -10vw;
+}
+
+/*************
+Buttons / Links / li / inputs
+**************/
+
+.main-list-item {
+  list-style: disc;
+  margin-bottom: 1rem;
+}
+
+.main-list-item::marker {
+  color: var(--text1);
+  font-size: 1.5rem;
+}
+
+/*************
+Typography
+**************/
+
+.main-heading {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/*************
+Layout
+**************/
+
+.home-main {
+  min-height: 500px;
+  padding: 2rem 0;
+  position: relative;
+  overflow: hidden;
+}
+.home-main-container {
+  position: relative;
+  z-index: 1;
+}
+
+.main-list {
+  padding-left: 2rem;
+}
+
+/*************
+Media Queries
+**************/
+
+/* @media (min-width: 1024px) {
+  .react-icon {
+    right: 10vw;
+  }
+} */

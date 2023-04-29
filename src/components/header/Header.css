@@ -1,0 +1,64 @@
+/*************
+General styling / Elements
+**************/
+
+/*************
+Images
+**************/
+
+.react-logo-shape {
+  font-size: 2rem;
+  margin-right: 0.25rem;
+}
+
+/*************
+Buttons / Links / li / inputs
+**************/
+
+/*************
+Typography
+**************/
+
+.react-logo-text {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.header-sub-heading {
+  color: var(--text2);
+  letter-spacing: 0.02em;
+}
+
+/*************
+Layout
+**************/
+
+.header {
+  background-color: var(--bgrnd1);
+  padding: 2rem 0;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between;
+  align-items: last baseline; */
+}
+
+.header-logo-container {
+  display: flex;
+  align-items: center;
+  color: var(--text1);
+}
+
+/*************
+Media Queries
+**************/
+
+@media (min-width: 460px) {
+  .header-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: last baseline;
+  }
+}
