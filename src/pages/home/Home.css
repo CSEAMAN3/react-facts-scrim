@@ -62,8 +62,8 @@ Layout
 Media Queries
 **************/
 
-/* @media (min-width: 1024px) {
+@media (min-width: 1024px) {
   .react-icon {
-    right: 10vw;
+    left: 70%;
   }
-} */
+}
