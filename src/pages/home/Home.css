@@ -22,11 +22,12 @@ Buttons / Links / li / inputs
 .main-list-item {
   list-style: disc;
   margin-bottom: 1rem;
+  font-weight: 300;
 }
 
 .main-list-item::marker {
   color: var(--text1);
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 /*************
